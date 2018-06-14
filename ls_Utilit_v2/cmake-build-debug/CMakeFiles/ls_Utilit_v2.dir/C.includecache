@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/soul7ucker/CLionProjects/ls_Utilit_v2/main.c
+stdio.h
+-
+stdbool.h
+-
+string.h
+-
+stdlib.h
+-
+locale.h
+-
+dirent.h
+-
+sys/stat.h
+-
+unistd.h
+-
+sys/types.h
+-
+

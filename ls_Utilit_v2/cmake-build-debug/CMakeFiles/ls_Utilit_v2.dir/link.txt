@@ -1,0 +1,1 @@
+/bin/cc -g   CMakeFiles/ls_Utilit_v2.dir/main.c.o  -o ls_Utilit_v2 
