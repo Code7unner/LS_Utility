@@ -1,3 +1,3 @@
-/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
-/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/ls_Utilit_v2.dir
+/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/ls_Utilit_v2.dir

@@ -1,111 +1,88 @@
 #include <stdio.h>
-#include <stdbool.h>
-#include <string.h>
-#include <stdlib.h>
-#include <locale.h>
 #include <dirent.h>
+#include <string.h>
 #include <sys/stat.h>
 #include <unistd.h>
-#include <sys/types.h>
+#define GREEN   "\x1b[32m"
+#define BLUE    "\x1b[34m"
+#define WHITE   "\x1b[37m"
 
-#define STR_EQ(s, v) (strcmp((s), (v)) == 0)
 
-bool flag_input = false;
-bool flag_column = false;
+void Usage() {
+    fprintf(stderr, "\nUsage: exec [OPTION]... [DIR]...\n");
+    fprintf(stderr, "List DIR's (directory) contents\n");
+    fprintf(stderr, "\nOptions\n-R\tlist subdirectories recursively\n");
+    return;
+}
 
-struct dirent *readdir(DIR *dirp);
+void RecDir(char *path, int flag) {
+    DIR *dp = opendir(path);
 
-char dir[256];
+    if(!dp) {
+        perror(path);
+        return;
+    }
 
-int mkdir(const char *pathname, mode_t mode);
-int rmdir(const char *pathname);
-int closedir(DIR *dirp);
+    struct dirent *ep;
+    char newdir[512];
 
-void print_help();
+    printf(BLUE "\n%s :\n" WHITE, path);
 
-int main(int argc, char** argv) {
+    while((ep = readdir(dp)))
+        if(strncmp(ep->d_name, ".", 1))
+            printf(GREEN "\t%s\n" WHITE, ep->d_name);
 
-    setlocale(LC_ALL, "");
+    closedir(dp);
+    dp = opendir(path);
 
-    for (int i = 1; i < argc; ++i) {
-        if (!flag_input) {
-            if (STR_EQ(argv[i], "--help")) {
-                print_help();
-            } else if ((strlen(argv[i]) > 1) && (argv[i][0] == '-') && (argv[i][1] != '-')) {
-
-                size_t keys = strlen(argv[i]);
-
-                for (size_t j = 1; j < keys; ++j) {
-                    switch (argv[i][j]) {
-                        case 'C':
-                            flag_column = true;
-                            break;
-                        default:
-                            fprintf(stderr, "Invalid input '%c'\n Try \"%s --help for details.\n",
-                                    argv[i][j], argv[0]);
-                            return 0;
-                    }
-                }
+    while((ep = readdir(dp))) if(strncmp(ep->d_name, ".", 1)) {
+            if(flag && ep->d_type == 4) {
+                sprintf(newdir, "%s/%s", path, ep->d_name);
+                RecDir(newdir, 1);
             }
+        }
 
-            else {
-                flag_input = true;
+    closedir(dp);
+}
 
-                DIR *dp = NULL;
+void PrintDir(){
+    char dir_path[516];
 
-                struct dirent *dptr = NULL;
-                char buff[128];
+    char *dir = opendir(getcwd(dir_path, sizeof(dir_path)));
 
-                memset(buff, 0, sizeof(buff));
-                strcpy(buff, argv[1]);
+    struct dirent *ep;
 
-                if (NULL == (dp = opendir(argv[1]))) {
-
-                    printf("\n Can't open Input directory [%s]\n", argv[1]);
-                    exit(1);
-                }
-                else {
-
-                    if(buff[strlen(buff)-1]=='/') {
-
-                        strncpy(buff+strlen(buff),"newDir/",7);
-                    }
-                    else {
-
-                        strncpy(buff+strlen(buff),"/newDir/",8);
-                    }
-
-                    printf("\n Creating a new directory [%s]\n",buff);
-
-                    mkdir(buff,S_IRWXU|S_IRWXG|S_IRWXO);
-                    printf("\n The contents of directory [%s] are as follows: \n",argv[1]);
-
-                    while(NULL != (dptr = readdir(dp)) )
-                    {
-                        printf(" [%s] ",dptr->d_name);
-                    }
-
-                    closedir(dp);
-
-                    rmdir(buff);
-                    printf("\n");
-                }
-            }
+    if (dir != NULL) {
+        while (ep = readdir(dir)) {
+            if (ep->d_name[0] != '.')
+                printf("%s ", ep->d_name);
+            printf("\n");
         }
     }
 
-    if (flag_column) {
-        //UNDO: add -C option
-    }
+    closedir(dir);
 
+    return;
+}
+
+int main(int argc, char **argv) {
+    switch(argc) {
+        case 2:
+            if(strcmp(argv[1], "ls") == 0)
+                PrintDir();
+            else Usage();
+            break;
+        /*case 2:
+            if(strcmp(argv[1], "-R") == 0)
+                Usage();
+            else RecDir(argv[1], 0);
+            break;*/
+        case 3:
+            if(strcmp(argv[1], "-R") == 0)
+                RecDir(argv[2], 1);
+            else Usage();
+            break;
+        default: Usage();
+    }
     return 0;
 }
-
-void print_help() {
-
-    printf("\nUsage: ls [OPTION]... [DIR]...\n\n"
-           "Options: \n"
-           "-C     *print dirs in column format*\n"
-           "--help *print help list*\n\n");
-}
-

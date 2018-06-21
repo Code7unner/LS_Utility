@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug"/>
+				<Option working_dir="/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/bin/make -j4 -f &quot;/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/bin/make -j4 -f &quot;/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/bin/make -j4 -f &quot;/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/bin/make -j4 -f &quot;/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/bin/make -j4 -f &quot;/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/bin/make -j4 -f &quot;/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j4 -f &quot;/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j4 -f &quot;/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug"/>
+				<Option working_dir="/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/bin/make -j4 -f &quot;/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/bin/make -j4 -f &quot;/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/bin/make -j4 -f &quot;/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/bin/make -j4 -f &quot;/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/bin/make -j4 -f &quot;/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/bin/make -j4 -f &quot;/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j4 -f &quot;/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j4 -f &quot;/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug"/>
+				<Option working_dir="/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/bin/make -j4 -f &quot;/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/bin/make -j4 -f &quot;/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/bin/make -j4 -f &quot;/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/bin/make -j4 -f &quot;/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/bin/make -j4 -f &quot;/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/bin/make -j4 -f &quot;/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j4 -f &quot;/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j4 -f &quot;/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ls_Utilit_v2">
-				<Option output="/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/ls_Utilit_v2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug"/>
+				<Option output="/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/ls_Utilit_v2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -50,15 +50,15 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/bin/make -j4 -f &quot;/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ls_Utilit_v2"/>
-					<CompileFile command="/bin/make -j4 -f &quot;/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/bin/make -j4 -f &quot;/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/bin/make -j4 -f &quot;/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/bin/make -j4 -f &quot;/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ls_Utilit_v2"/>
+					<CompileFile command="/bin/make -j4 -f &quot;/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j4 -f &quot;/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j4 -f &quot;/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="ls_Utilit_v2/fast">
-				<Option output="/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/ls_Utilit_v2" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug"/>
+				<Option output="/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/ls_Utilit_v2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -69,17 +69,17 @@
 					<Add directory="/usr/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/bin/make -j4 -f &quot;/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ls_Utilit_v2/fast"/>
-					<CompileFile command="/bin/make -j4 -f &quot;/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/bin/make -j4 -f &quot;/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/bin/make -j4 -f &quot;/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/bin/make -j4 -f &quot;/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 ls_Utilit_v2/fast"/>
+					<CompileFile command="/bin/make -j4 -f &quot;/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/bin/make -j4 -f &quot;/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/bin/make -j4 -f &quot;/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/home/soul7ucker/CLionProjects/ls_Utilit_v2/main.c">
+		<Unit filename="/home/soul7ucker/coding/ls_Utilit_v2/main.c">
 			<Option target="ls_Utilit_v2"/>
 		</Unit>
-		<Unit filename="/home/soul7ucker/CLionProjects/ls_Utilit_v2/CMakeLists.txt">
+		<Unit filename="/home/soul7ucker/coding/ls_Utilit_v2/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

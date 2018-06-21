@@ -10,33 +10,33 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
 
-The C compiler identification is GNU, found in "/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/a.out"
+The C compiler identification is GNU, found in "/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/3.10.3/CompilerIdC/a.out"
 
 Determining if the C compiler works passed with the following output:
-Change Dir: /home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/bin/make" "cmTC_64cc3/fast"
-/bin/make -f CMakeFiles/cmTC_64cc3.dir/build.make CMakeFiles/cmTC_64cc3.dir/build
-make[1]: вход в каталог «/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_64cc3.dir/testCCompiler.c.o
-/bin/cc    -o CMakeFiles/cmTC_64cc3.dir/testCCompiler.c.o   -c /home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
-Linking C executable cmTC_64cc3
-/home/soul7ucker/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_64cc3.dir/link.txt --verbose=1
-/bin/cc      CMakeFiles/cmTC_64cc3.dir/testCCompiler.c.o  -o cmTC_64cc3 
-make[1]: выход из каталога «/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp»
+Run Build Command:"/bin/make" "cmTC_0676e/fast"
+/bin/make -f CMakeFiles/cmTC_0676e.dir/build.make CMakeFiles/cmTC_0676e.dir/build
+make[1]: вход в каталог «/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_0676e.dir/testCCompiler.c.o
+/bin/cc    -o CMakeFiles/cmTC_0676e.dir/testCCompiler.c.o   -c /home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_0676e
+/home/soul7ucker/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0676e.dir/link.txt --verbose=1
+/bin/cc      CMakeFiles/cmTC_0676e.dir/testCCompiler.c.o  -o cmTC_0676e 
+make[1]: выход из каталога «/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp»
 
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: /home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/bin/make" "cmTC_61221/fast"
-/bin/make -f CMakeFiles/cmTC_61221.dir/build.make CMakeFiles/cmTC_61221.dir/build
-make[1]: вход в каталог «/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_61221.dir/CMakeCCompilerABI.c.o
-/bin/cc    -o CMakeFiles/cmTC_61221.dir/CMakeCCompilerABI.c.o   -c /home/soul7ucker/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c
-Linking C executable cmTC_61221
-/home/soul7ucker/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61221.dir/link.txt --verbose=1
-/bin/cc     -v CMakeFiles/cmTC_61221.dir/CMakeCCompilerABI.c.o  -o cmTC_61221 
+Run Build Command:"/bin/make" "cmTC_a0b4a/fast"
+/bin/make -f CMakeFiles/cmTC_a0b4a.dir/build.make CMakeFiles/cmTC_a0b4a.dir/build
+make[1]: вход в каталог «/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_a0b4a.dir/CMakeCCompilerABI.c.o
+/bin/cc    -o CMakeFiles/cmTC_a0b4a.dir/CMakeCCompilerABI.c.o   -c /home/soul7ucker/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+Linking C executable cmTC_a0b4a
+/home/soul7ucker/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0b4a.dir/link.txt --verbose=1
+/bin/cc     -v CMakeFiles/cmTC_a0b4a.dir/CMakeCCompilerABI.c.o  -o cmTC_a0b4a 
 Используются внутренние спецификации.
 COLLECT_GCC=/bin/cc
 COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper
@@ -46,24 +46,24 @@ COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper
 gcc версия 8.1.1 20180531 (GCC) 
 COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/
 LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../:/lib/:/usr/lib/
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_61221' '-mtune=generic' '-march=x86-64'
- /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccym6tqO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_61221 /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../.. CMakeFiles/cmTC_61221.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crtn.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_61221' '-mtune=generic' '-march=x86-64'
-make[1]: выход из каталога «/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp»
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a0b4a' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZedr5G.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a0b4a /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../.. CMakeFiles/cmTC_a0b4a.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a0b4a' '-mtune=generic' '-march=x86-64'
+make[1]: выход из каталога «/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp»
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: /home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp]
+  ignore line: [Change Dir: /home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp]
   ignore line: []
-  ignore line: [Run Build Command:"/bin/make" "cmTC_61221/fast"]
-  ignore line: [/bin/make -f CMakeFiles/cmTC_61221.dir/build.make CMakeFiles/cmTC_61221.dir/build]
-  ignore line: [make[1]: вход в каталог «/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp»]
-  ignore line: [Building C object CMakeFiles/cmTC_61221.dir/CMakeCCompilerABI.c.o]
-  ignore line: [/bin/cc    -o CMakeFiles/cmTC_61221.dir/CMakeCCompilerABI.c.o   -c /home/soul7ucker/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
-  ignore line: [Linking C executable cmTC_61221]
-  ignore line: [/home/soul7ucker/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61221.dir/link.txt --verbose=1]
-  ignore line: [/bin/cc     -v CMakeFiles/cmTC_61221.dir/CMakeCCompilerABI.c.o  -o cmTC_61221 ]
+  ignore line: [Run Build Command:"/bin/make" "cmTC_a0b4a/fast"]
+  ignore line: [/bin/make -f CMakeFiles/cmTC_a0b4a.dir/build.make CMakeFiles/cmTC_a0b4a.dir/build]
+  ignore line: [make[1]: вход в каталог «/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp»]
+  ignore line: [Building C object CMakeFiles/cmTC_a0b4a.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/bin/cc    -o CMakeFiles/cmTC_a0b4a.dir/CMakeCCompilerABI.c.o   -c /home/soul7ucker/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [Linking C executable cmTC_a0b4a]
+  ignore line: [/home/soul7ucker/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a0b4a.dir/link.txt --verbose=1]
+  ignore line: [/bin/cc     -v CMakeFiles/cmTC_a0b4a.dir/CMakeCCompilerABI.c.o  -o cmTC_a0b4a ]
   ignore line: [Используются внутренние спецификации.]
   ignore line: [COLLECT_GCC=/bin/cc]
   ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper]
@@ -73,13 +73,13 @@ Parsed C implicit link information from above output:
   ignore line: [gcc версия 8.1.1 20180531 (GCC) ]
   ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
   ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../:/lib/:/usr/lib/]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_61221' '-mtune=generic' '-march=x86-64']
-  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccym6tqO.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_61221 /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../.. CMakeFiles/cmTC_61221.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crtn.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a0b4a' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccZedr5G.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a0b4a /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1 -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../.. CMakeFiles/cmTC_a0b4a.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crtn.o]
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/collect2] ==> ignore
     arg [-plugin] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/liblto_plugin.so] ==> ignore
     arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/lto-wrapper] ==> ignore
-    arg [-plugin-opt=-fresolution=/tmp/ccym6tqO.res] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccZedr5G.res] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
     arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
     arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -94,7 +94,7 @@ Parsed C implicit link information from above output:
     arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
     arg [-pie] ==> ignore
     arg [-o] ==> ignore
-    arg [cmTC_61221] ==> ignore
+    arg [cmTC_a0b4a] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/Scrt1.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../../../lib/crti.o] ==> ignore
     arg [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/crtbeginS.o] ==> ignore
@@ -103,7 +103,7 @@ Parsed C implicit link information from above output:
     arg [-L/lib/../lib] ==> dir [/lib/../lib]
     arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
     arg [-L/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../..] ==> dir [/usr/lib/gcc/x86_64-pc-linux-gnu/8.1.1/../../..]
-    arg [CMakeFiles/cmTC_61221.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [CMakeFiles/cmTC_a0b4a.dir/CMakeCCompilerABI.c.o] ==> ignore
     arg [-lgcc] ==> lib [gcc]
     arg [--as-needed] ==> ignore
     arg [-lgcc_s] ==> lib [gcc_s]
@@ -128,17 +128,17 @@ Parsed C implicit link information from above output:
 
 
 Detecting C [-std=c11] compiler features compiled with the following output:
-Change Dir: /home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/bin/make" "cmTC_104f4/fast"
-/bin/make -f CMakeFiles/cmTC_104f4.dir/build.make CMakeFiles/cmTC_104f4.dir/build
-make[1]: вход в каталог «/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_104f4.dir/feature_tests.c.o
-/bin/cc   -std=c11 -o CMakeFiles/cmTC_104f4.dir/feature_tests.c.o   -c /home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_104f4
-/home/soul7ucker/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_104f4.dir/link.txt --verbose=1
-/bin/cc      CMakeFiles/cmTC_104f4.dir/feature_tests.c.o  -o cmTC_104f4 
-make[1]: выход из каталога «/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp»
+Run Build Command:"/bin/make" "cmTC_c70ba/fast"
+/bin/make -f CMakeFiles/cmTC_c70ba.dir/build.make CMakeFiles/cmTC_c70ba.dir/build
+make[1]: вход в каталог «/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_c70ba.dir/feature_tests.c.o
+/bin/cc   -std=c11 -o CMakeFiles/cmTC_c70ba.dir/feature_tests.c.o   -c /home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_c70ba
+/home/soul7ucker/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c70ba.dir/link.txt --verbose=1
+/bin/cc      CMakeFiles/cmTC_c70ba.dir/feature_tests.c.o  -o cmTC_c70ba 
+make[1]: выход из каталога «/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp»
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -148,17 +148,17 @@ make[1]: выход из каталога «/home/soul7ucker/CLionProjects/ls_Ut
 
 
 Detecting C [-std=c99] compiler features compiled with the following output:
-Change Dir: /home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/bin/make" "cmTC_77922/fast"
-/bin/make -f CMakeFiles/cmTC_77922.dir/build.make CMakeFiles/cmTC_77922.dir/build
-make[1]: вход в каталог «/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_77922.dir/feature_tests.c.o
-/bin/cc   -std=c99 -o CMakeFiles/cmTC_77922.dir/feature_tests.c.o   -c /home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_77922
-/home/soul7ucker/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_77922.dir/link.txt --verbose=1
-/bin/cc      CMakeFiles/cmTC_77922.dir/feature_tests.c.o  -o cmTC_77922 
-make[1]: выход из каталога «/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp»
+Run Build Command:"/bin/make" "cmTC_41e4d/fast"
+/bin/make -f CMakeFiles/cmTC_41e4d.dir/build.make CMakeFiles/cmTC_41e4d.dir/build
+make[1]: вход в каталог «/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_41e4d.dir/feature_tests.c.o
+/bin/cc   -std=c99 -o CMakeFiles/cmTC_41e4d.dir/feature_tests.c.o   -c /home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_41e4d
+/home/soul7ucker/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_41e4d.dir/link.txt --verbose=1
+/bin/cc      CMakeFiles/cmTC_41e4d.dir/feature_tests.c.o  -o cmTC_41e4d 
+make[1]: выход из каталога «/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp»
 
 
     Feature record: C_FEATURE:1c_function_prototypes
@@ -168,17 +168,17 @@ make[1]: выход из каталога «/home/soul7ucker/CLionProjects/ls_Ut
 
 
 Detecting C [-std=c90] compiler features compiled with the following output:
-Change Dir: /home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp
+Change Dir: /home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp
 
-Run Build Command:"/bin/make" "cmTC_380ff/fast"
-/bin/make -f CMakeFiles/cmTC_380ff.dir/build.make CMakeFiles/cmTC_380ff.dir/build
-make[1]: вход в каталог «/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp»
-Building C object CMakeFiles/cmTC_380ff.dir/feature_tests.c.o
-/bin/cc   -std=c90 -o CMakeFiles/cmTC_380ff.dir/feature_tests.c.o   -c /home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/feature_tests.c
-Linking C executable cmTC_380ff
-/home/soul7ucker/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_380ff.dir/link.txt --verbose=1
-/bin/cc      CMakeFiles/cmTC_380ff.dir/feature_tests.c.o  -o cmTC_380ff 
-make[1]: выход из каталога «/home/soul7ucker/CLionProjects/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp»
+Run Build Command:"/bin/make" "cmTC_606f9/fast"
+/bin/make -f CMakeFiles/cmTC_606f9.dir/build.make CMakeFiles/cmTC_606f9.dir/build
+make[1]: вход в каталог «/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp»
+Building C object CMakeFiles/cmTC_606f9.dir/feature_tests.c.o
+/bin/cc   -std=c90 -o CMakeFiles/cmTC_606f9.dir/feature_tests.c.o   -c /home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/feature_tests.c
+Linking C executable cmTC_606f9
+/home/soul7ucker/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/181.5087.36/bin/cmake/bin/cmake -E cmake_link_script CMakeFiles/cmTC_606f9.dir/link.txt --verbose=1
+/bin/cc      CMakeFiles/cmTC_606f9.dir/feature_tests.c.o  -o cmTC_606f9 
+make[1]: выход из каталога «/home/soul7ucker/coding/ls_Utilit_v2/cmake-build-debug/CMakeFiles/CMakeTmp»
 
 
     Feature record: C_FEATURE:1c_function_prototypes

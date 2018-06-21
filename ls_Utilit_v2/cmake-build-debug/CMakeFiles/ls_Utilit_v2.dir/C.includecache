@@ -6,23 +6,15 @@
 
 #IncludeRegexTransform: 
 
-/home/soul7ucker/CLionProjects/ls_Utilit_v2/main.c
+/home/soul7ucker/coding/ls_Utilit_v2/main.c
 stdio.h
 -
-stdbool.h
+dirent.h
 -
 string.h
--
-stdlib.h
--
-locale.h
--
-dirent.h
 -
 sys/stat.h
 -
 unistd.h
--
-sys/types.h
 -
 
